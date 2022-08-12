@@ -1,0 +1,73 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+   background-color: rgb(24, 49, 83);
+}
+.siteIcone {
+    width: 100px;
+}
+.act-section{
+    background-image: url(../images/4K\ Wallpaper\ For\ Pc\ Download\ Trick.jfif);
+    background-size: cover;
+}
+.find-location{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(24, 49, 83);
+    transition: 0.5s all;
+}
+.find-location:hover{
+    box-shadow: 0 0 20px rgb(202, 189, 240);
+    border: none;
+}
+.find-location input{
+    width: 90%;
+    color: white;
+    padding: 20px 50px 20px 20px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background-color: rgb(24, 49, 83); 
+}
+.btnn{
+    width: 120px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(24, 49, 83);
+}
+.footer{
+    background-color: rgb(19, 38, 65); 
+}
+.rightFooter input{
+    width: 60%;
+    padding: 12px 12px 12px 12px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(24, 53, 94); 
+}
+.footer p {
+    color: rgb(179, 176, 176);
+}
+.icons i{
+    font-size: 40px;
+    color: aqua;
+    background-color: rgb(24, 53, 94); 
+}
+/*  */
+.details{
+    background-color: rgb(24, 53, 94); 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition:0.5s all;
+}
+.details:hover{
+    box-shadow: 0 0 20px rgb(202, 189, 240);
+}
+.theMidd{
+    background-color: rgb(19, 38, 65); 
+}

@@ -1,0 +1,139 @@
+<html>
+
+<head>
+  <title>Weather</title>
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <!----------- navbar ------------->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+      <a class="navbar-brand d-flex justify-content-center" href="#">
+        <img src="images/Screenshot 2021-09-30 022724.png" alt="" class="siteIcone">
+        <div class="ms-2 ">
+          <h1 class="fs-3 fw-bold mt-3">Weather</h1>
+          <span class="fs-6">tagline goes here</span>
+        </div>
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-4">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="#">live cameras</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!----------- onSite ------------->
+  <section class="act-section pt-5 pb-5">
+    <div class="container find-location m-auto mt-5 py-1 px-0 mb-5">
+      <input id="searchInput" type="text" class="search-input " placeholder="Find Your location...">
+      <button type="button" class="btnn bg-info p-3 ms-auto">Find</button>
+    </div>
+
+    <div class="container details p-1">
+      <div class="row">
+
+        <div class="col-md-4 ">
+          <div>
+
+            <div class="header d-flex justify-content-between px-2 border-bottom">
+               <p id="day">day</p>
+               <p id="date">date</p>
+            </div>
+
+            <div class="content p-4">
+              <div>
+                <p id="region" class="fs-2">region</p>
+                <p id="temp_c" class="fs-1 my-5">temp_c</p>
+                <p id="cloudyState_0" class="mb-3">cloudyState</p>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-around border-top py-3">
+              <span id="chance_of_rain">Chance of rain: </span>
+              <span id="wind_kph" class="border-start border-end px-3">Wind sp:</span>
+              <span id="wind_dir">Wind Dir:</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 theMidd">
+          <div class="tomorrow">
+            <div class="header d-flex justify-content-center border-bottom">
+               <p id="tomorrow" class="tomorrow">tomorrow</p>
+            </div>
+
+            <div class="content p-4 text-center">
+              <p id="maxtemp_c" class="fs-1 mt-5 m-auto">maxtemp_c</p>
+              <p id="mintemp_c" class="fs-4 mb-5">mintemp_c</p>
+              <p id="cloudyState_1">cloudyState</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div>
+            <div class="header d-flex justify-content-center border-bottom">
+               <p id="afterTomorrow" class="afterTomorrow">the day after tomorrow</p>
+            </div>
+            <div class="content p-4 text-center ">
+              <p id="maxtemp_c_2" class="fs-1 mt-5 m-auto">maxtemp_c</p>
+              <p id="mintemp_c_2" class="fs-4 mb-5">mintemp_c</p>
+              <p id="cloudyState_2" >cloudyState</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!----------- footer ------------->
+  <section class="footer px-5 pb-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 py-5 rightFooter">
+          <input type="text" placeholder="Enter your email to subscribe...">
+          <button type="button" class="btnn bg-info fs-6 p-2 ms-auto">Subscribe</button>
+        </div>
+        <div class="icons col-md-4 pt-5">
+          <span><a href="#"><i class="fab fa-facebook rounded-circle mx-3"></i></a></i></span>
+          <span><a href="#"><i class="fab fa-twitter-square rounded-circle mx-2"></i></a></span>
+          <span><a href="#"><i class="fab fa-google-plus mx-3 rounded-circle"></i></a></i></span>
+          <span><a href="#"><i class="fab fa-pinterest mx-2 rounded-circle"></i></a></span>
+        </div>
+      </div>
+
+      <p class="pb-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+    </div>
+  </section>
+
+  <script src="JS/popper.min.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
